@@ -4,7 +4,7 @@ import './App.css';
 import Form from "./components/Form";
 import Recipes from "./components/Recipes";
 
-const API_KEY = "Your-api-key";
+const API_KEY = '66f290b0a965628f09278eabbcd8affe';
 
 class App extends Component {
   state = {
@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Recipe Search</h1>
+          <h1 className="App-title">Ketan's Recipe Search</h1>
         </header>
         <Form getRecipe={this.getRecipe} />
         <Recipes recipes={this.state.recipes} />
